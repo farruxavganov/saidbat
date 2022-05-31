@@ -50,6 +50,10 @@ button {
         transform: scale(1);
     }
 }
+.show {
+    transition: .4s ease;
+    transform: translateX(0) !important;
+}
 .saidbar {
     position: fixed;
     top: 0;
@@ -58,6 +62,8 @@ button {
     max-width: 360px;
     height: 100%;
     background: #fff;
+    transform: translateX(-110%);
+    transition: .4s ease;
 }
 .navbar {
     display: flex;
