@@ -125,9 +125,6 @@ button {
 }
 
 @media (max-width: 586px){
-    .navbar__bars {
-        display: none;
-    }
     .saidbar {
         width: 100%;
         max-width: 100%;
